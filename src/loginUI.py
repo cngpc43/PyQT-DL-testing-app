@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'untitled.ui'
+# Form implementation generated from reading ui file 'login.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.7
 #
@@ -14,9 +14,9 @@ import sys,res
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(625, 565)
+        Form.resize(482, 431)
         self.widget = QtWidgets.QWidget(Form)
-        self.widget.setGeometry(QtCore.QRect(20, 50, 550, 500))
+        self.widget.setGeometry(QtCore.QRect(0, 0, 481, 431))
         self.widget.setStyleSheet("QPushButton#pushButton{\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11,131,120,219), stop: 1 rgba(85,98,112,226));\n"
 "    color: rgba(255,255,255,210);\n"
@@ -32,25 +32,25 @@ class Ui_Form(object):
 "}")
         self.widget.setObjectName("widget")
         self.label = QtWidgets.QLabel(self.widget)
-        self.label.setGeometry(QtCore.QRect(40, 30, 241, 431))
+        self.label.setGeometry(QtCore.QRect(0, 0, 241, 431))
         self.label.setStyleSheet("border-image:url(:/images/motorbike-road-design_1212-591.avif);\n"
 "border-top-left-radius: 50px;")
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.widget)
-        self.label_2.setGeometry(QtCore.QRect(40, 30, 240, 430))
+        self.label_2.setGeometry(QtCore.QRect(0, 0, 240, 430))
         self.label_2.setStyleSheet("background-color:rgba(0,0,0,80);\n"
 "border-top-left-radius: 50px;")
         self.label_2.setText("")
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.widget)
-        self.label_3.setGeometry(QtCore.QRect(280, 30, 240, 430))
+        self.label_3.setGeometry(QtCore.QRect(240, 0, 241, 431))
         self.label_3.setStyleSheet("background-color:rgba(255,255,255,255);\n"
 "border-bottom-right-radius: 50px;")
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(self.widget)
-        self.label_4.setGeometry(QtCore.QRect(340, 80, 100, 40))
+        self.label_4.setGeometry(QtCore.QRect(300, 50, 100, 40))
         font = QtGui.QFont()
         font.setPointSize(20)
         font.setBold(True)
@@ -60,7 +60,7 @@ class Ui_Form(object):
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
         self.lineEdit = QtWidgets.QLineEdit(self.widget)
-        self.lineEdit.setGeometry(QtCore.QRect(295, 150, 190, 40))
+        self.lineEdit.setGeometry(QtCore.QRect(255, 120, 190, 40))
         font = QtGui.QFont()
         font.setPointSize(10)
         self.lineEdit.setFont(font)
@@ -71,7 +71,7 @@ class Ui_Form(object):
 "padding-bottom: 7px;")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
-        self.lineEdit_2.setGeometry(QtCore.QRect(295, 215, 190, 40))
+        self.lineEdit_2.setGeometry(QtCore.QRect(255, 185, 190, 40))
         font = QtGui.QFont()
         font.setPointSize(10)
         self.lineEdit_2.setFont(font)
@@ -83,10 +83,10 @@ class Ui_Form(object):
         self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.pushButton = QtWidgets.QPushButton(self.widget)
-        self.pushButton.setGeometry(QtCore.QRect(295, 295, 190, 40))
+        self.pushButton.setGeometry(QtCore.QRect(255, 265, 190, 40))
         self.pushButton.setObjectName("pushButton")
         self.label_5 = QtWidgets.QLabel(self.widget)
-        self.label_5.setGeometry(QtCore.QRect(298, 360, 191, 16))
+        self.label_5.setGeometry(QtCore.QRect(258, 330, 191, 16))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(False)
@@ -105,6 +105,7 @@ class Ui_Form(object):
         self.lineEdit_2.setPlaceholderText(_translate("Form", "Password"))
         self.pushButton.setText(_translate("Form", "Log in"))
         self.label_5.setText(_translate("Form", "Don\'t have account? Register here!"))
+# import res_rc
 if __name__=="__main__":
     app=QtWidgets.QApplication(sys.argv)
     Form = QtWidgets.QWidget()
