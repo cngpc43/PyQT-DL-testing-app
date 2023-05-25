@@ -1,5 +1,7 @@
 from PyQt5 import QtWidgets, QtCore, QtGui, QtSql
 from loginUI import Ui_Form
+from registerUI import Ui_Form as Ui_Form2
+# from   import pyuic5   
 # from PyQt5.QtSql import QSqlDatabase, QSqlQuery
 import sys
 
@@ -14,8 +16,7 @@ class myApp(QtWidgets.QWidget,Ui_Form):
         db.setDatabaseName('db.sqlite')
         if not db.open():
             print("Cannot open database")
-        self.query = QtSql.QSqlQuery()
-
+        self.query = QtSql.QSqlQuery()        
     def checkUser(self):
         username1 = self.lineEdit.text()
         password1 = self.lineEdit_2.text()
